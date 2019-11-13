@@ -20,7 +20,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-family: 'Dosis', sans-serif;
-  font-size: 30px;
+  font-size: 37px;
 
   margin: 0 auto;
   text-align: center;
@@ -33,13 +33,59 @@ hr {
   margin: 3px auto;
 }
 
-#line0 { width: 98px; }
-#line1 { width: 155px; }
-#line2 { width: 82px; }
+a {
+  color: inherit;
+  text-decoration: inherit;
+
+  -moz-transition: color .2s ease-in;
+  -o-transition: color .2s ease-in;
+  -webkit-transition: color .2s ease-in;
+  transition: color .2s ease-in;
+}
+
+a:hover {
+  color: #6464b7;
+}
+
+footer {
+  color: #8aafc4;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+#line0 { width: 120px; }
+#line1 { width: 200px; }
+#line2 {
+  width: 100px;
+  margin-bottom: 8%;
+}
+
+#about {
+  -moz-transition: color .2s ease-in;
+  -o-transition: color .2s ease-in;
+  -webkit-transition: color .2s ease-in;
+  transition: color .2s ease-in;
+}
+
+#about:hover {
+  color: #6464b7;
+  cursor: pointer;
+}
 
 .portrait {
   display: flex;
   margin: 0 auto 3% auto;
   border: 3px solid #8aafc4;
   width: 250px; /* overridden by javascript! I put J.I.C. of noscript. */
+}
+
+.about {
+  width: 61.8%;
+  font-size: 23px;
+  font-family: 'Dosis', sans-serif;
+  color: #5d5d70;
+  margin: 0 auto;
+  text-align: justify;
+  display: none;
 }
