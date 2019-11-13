@@ -1,15 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 
 body {
   background-color: #c7d5dd;
   color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 60px;
 }
 
 h1 {
-  margin: 5% auto;
+  margin: 0 auto;
   width: 50%;
   max-width: 1000px;
+  text-align: center;
   text-shadow: -3px 0 #8aafc4, 0 3px #8aafc4, 3px 0 #8aafc4, 0 -3px #8aafc4;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+
+  margin: 0 auto;
+  text-align: center;
+
+  color: #9898b8;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+hr {
+  margin: 3px auto;
+}
+
+#line0 { width: 98px; }
+#line1 { width: 155px; }
+#line2 { width: 82px; }
+
+.portrait {
+  display: flex;
+  margin: 0 auto 3% auto;
+  border: 3px solid #8aafc4;
+  width: 250px; /* overridden by javascript! I put J.I.C. of noscript. */
 }

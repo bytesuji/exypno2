@@ -2,12 +2,32 @@
 <html>
 <head>
   <title>ExypnoTech</title>
-  <link rel="stylesheet" type="text/css" href="/styles.css"
-</head>
+  <link rel="stylesheet" type="text/css" href="/styles.css" />
 <body>
   <div class="center">
-    <h1>Exypno<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tech</h1>
+    <h1>Exypno&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tech</h1>
   </div>
+
+  <img class="portrait" alt="picture of albert" src="bookmill-widecrop.jpg" />
+  <script type="text/javascript">
+  var logoWidth = document.getElementsByTagName('h1')[0].offsetWidth;
+  var portrait = document.getElementsByClassName('portrait')[0];
+  var portraitWidth = logoWidth * 0.61804 // inverse golden ratio
+  portrait.setAttribute('style', 'width:' + portraitWidth + 'px');
+  </script>
+
+  <div class="center">
+    <h2 id="link0">G I T H U B</h2>
+    <hr id="line0" />
+
+    <h2 style="margin-top: 15px">P O R T F O L I O</h2>
+    <hr id="line1" />
+
+    <h2 style="margin-top: 15px">A B O U T</h2>
+    <hr id="line2" />
+  </div>
+</head>
 </body>
 </html>
 
