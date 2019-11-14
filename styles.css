@@ -100,7 +100,7 @@ footer {
   -ms-filter:     grayscale(100%);
   -o-filter:      grayscale(100%);
   transition: all 300ms ease;
-  width: 20%;
+  width: 30%;
   border: 3px solid #8aafc4;
   margin-top: 2%;
 }
