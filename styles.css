@@ -6,7 +6,7 @@ body {
   background-color: #c7d5dd;
   color: #fff;
   font-family: 'DM Serif Display', serif;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h1 {
@@ -44,11 +44,11 @@ a {
 }
 
 a:hover {
-  color: #6464b7;
+  color: #8aafc4;
 }
 
 footer {
-  color: #8aafc4;
+  color: #9898b8;
   font-size: 14px;
   text-align: center;
   margin-top: 3%;
@@ -61,15 +61,15 @@ footer {
   margin-bottom: 8%;
 }
 
-#about {
+.fakelink {
   -moz-transition: color .2s ease-in;
   -o-transition: color .2s ease-in;
   -webkit-transition: color .2s ease-in;
   transition: color .2s ease-in;
 }
 
-#about:hover {
-  color: #6464b7;
+.fakelink:hover {
+  color: #8aafc4;
   cursor: pointer;
 }
 
@@ -88,4 +88,27 @@ footer {
   margin: 0 auto;
   text-align: justify;
   display: none;
+}
+
+.portfolio {
+  display: none;
+  text-align: center;
+}
+
+.folio-img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter:    grayscale(100%);
+  -ms-filter:     grayscale(100%);
+  -o-filter:      grayscale(100%);
+  transition: all 300ms ease;
+  width: 20%;
+  border: 3px solid #8aafc4;
+  margin-top: 2%;
+}
+
+.folio-img:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter:    grayscale(0%);
+  -ms-filter:     grayscale(0%);
+  -o-filter:      grayscale(0%);
 }

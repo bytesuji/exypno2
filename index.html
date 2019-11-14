@@ -4,6 +4,7 @@
   <title>ExypnoTech</title>
   <link rel="stylesheet" type="text/css" href="/styles.css" />
   <script src="/js/jquery-3.4.1.min.js" charset="utf-8"></script>
+  <script src="/js/chroma.min.js" charset="utf-8"></script>
 <body>
   <div class="center">
     <h1>Exypno&nbsp;&nbsp;&nbsp;<br />
@@ -12,7 +13,11 @@
 
   <img class="portrait" alt="picture of albert" src="/media/bookmill-widecrop.jpg" />
   <script type="text/javascript">
-
+  console.log("portrait automatically resized");
+  var logoWidth = document.getElementsByTagName('h1')[0].offsetWidth;
+  var portrait = document.getElementsByClassName('portrait')[0];
+  var portraitWidth = logoWidth * 0.61804 // inverse golden ratio
+  portrait.setAttribute('style', 'width:' + portraitWidth + 'px');
   </script>
 
   <div class="center">
@@ -21,13 +26,22 @@
     </h2>
     <hr id="line0" />
 
-    <h2 id="portfolio" style="margin-top: 15px">P O R T F O L I O</h2>
+    <h2 class="fakelink" id="portfolio" style="margin-top: 15px">
+      P O R T F O L I O</h2>
     <hr id="line1" />
+    <div class="portfolio">
+      <a href="https://hannahyoungpiano.com">
+        <img alt="hannahyoungpiano.com" src="/media/hby-scrot.jpg" class="folio-img" />
+      </a>
+      <a href="https://freshsideeatery.com">
+        <img alt="freshsideeatery.com" src="/media/freshside-scrot.jpg" class="folio-img" />
+      </a>
+    </div>
 
-    <h2 id="about" style="margin-top: 15px">
+    <h2 class="fakelink" id="about" style="margin-top: 15px">
       A B O U T</h2>
     <hr id="line2" />
-    <p class="about">Lorem stuff nizzle bizzle, consectetuer adipiscing da bomb. Nullam break it down velit, doggy volutpizzle, suscipizzle daahng dawg, bling bling vizzle, arcu. Pellentesque hizzle tortor. Sizzle ma nizzle. Fusce mah nizzle dolor dapibizzle yo tempizzle ass. Its fo rizzle pellentesque nibh izzle turpizzle. Gangsta izzle tortor. Pellentesque dizzle rhoncizzle nisi. Gangsta break it down you son of a bizzle platea dictumst. Donec dapibus. Curabitizzle tellus urna, pretizzle eu, mattis ac, shit vitae, shizznit. Things suscipizzle. Integizzle sempizzle cool sed shizznit.</p>
+    <p class="about" id="about-text"></p>
   </div>
 
   <footer>
