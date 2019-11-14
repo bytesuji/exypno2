@@ -76,11 +76,11 @@ footer {
   display: flex;
   margin: 0 auto 3% auto;
   border: 3px solid #8aafc4;
-  width: 250px; /* overridden by javascript! I put J.I.C. of noscript. */
+  width: 280px; /* overridden by javascript! I put J.I.C. of noscript. */
 }
 
 .about {
-  width: 61.8%;
+  width: 552px;
   font-size: 23px;
   font-family: 'Dosis', sans-serif;
   color: #5e5e77;
