@@ -53,12 +53,13 @@ footer {
   margin-top: 3%;
 }
 
-#line0 { width: 120px; }
-#line1 { width: 200px; }
-#line2 {
-  width: 100px;
+/* line0 is really line2. */
+#line0 {
+  width: 120px;
   margin-bottom: 8%;
 }
+#line1 { width: 200px; }
+#line2 { width: 100px; }
 
 .fakelink {
   -moz-transition: color .2s ease-in;
