@@ -112,3 +112,7 @@ footer {
   -ms-filter:     grayscale(0%);
   -o-filter:      grayscale(0%);
 }
+
+#hoopty {
+  margin-top: 15px !important;
+}
