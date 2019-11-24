@@ -6,12 +6,12 @@ $("#about").click(function() {
     $("#line2").css('margin-bottom', 0);
   }
 
-  $("#about-text").slideToggle("fast");
+  $("#about-text").slideToggle("slow");
   window.scrollBy(0, 290);
 });
 
 $("#portfolio").click(function() {
-  $(".portfolio").slideToggle("fast");
+  $(".portfolio").slideToggle("slow");
   window.scrollBy(0, 400);
 });
 
