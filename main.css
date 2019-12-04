@@ -30,6 +30,7 @@ h2 {
 
 hr {
   margin: 3px auto;
+  color: #ccc;
 }
 
 a {
@@ -75,7 +76,7 @@ footer {
 
 .portrait {
   display: flex;
-  margin: 0 auto 3% auto;
+  margin: 35px auto;
   border: 3px solid #8aafc4;
   width: 280px; /* overridden by javascript! I put J.I.C. of noscript. */
 }
@@ -115,4 +116,13 @@ footer {
 
 #hoopty {
   margin-top: 15px !important;
+}
+
+#topgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#linkbox {
+  margin-left: 80px;
 }
