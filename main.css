@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 
 body {
-  background-color: #c7d5dd;
+  background-color: black;
   color: #fff;
   font-family: 'DM Serif Display', serif;
   font-size: 50px;
@@ -13,7 +13,7 @@ h1 {
   width: 50%;
   max-width: 1000px;
   text-align: center;
-  text-shadow: -3px 0 #8aafc4, 0 3px #8aafc4, 3px 0 #8aafc4, 0 -3px #8aafc4;
+  text-shadow: 3px 3px #888;
 }
 
 h2 {
@@ -24,8 +24,8 @@ h2 {
   margin: 0 auto;
   text-align: center;
 
-  color: #9898b8;
-  text-shadow: 2px 2px 2px #fff;
+  color: white;
+  text-shadow: 2px 2px 2px #888;
 }
 
 hr {
@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: #8aafc4;
+  color: #8df4d0;
 }
 
 footer {
@@ -70,14 +70,14 @@ footer {
 }
 
 .fakelink:hover {
-  color: #8aafc4;
+  color: #8df4d0;
   cursor: pointer;
 }
 
 .portrait {
   display: flex;
   margin: 0 auto 3% auto;
-  border: 3px solid #8aafc4;
+  border: 3px solid white;
   width: 280px; /* overridden by javascript! I put J.I.C. of noscript. */
 }
 
@@ -85,7 +85,7 @@ footer {
   width: 552px;
   font-size: 23px;
   font-family: 'Dosis', sans-serif;
-  color: #5e5e77;
+  color: white;
   margin: 0 auto;
   text-align: justify;
   display: none;
