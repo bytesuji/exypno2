@@ -5,6 +5,7 @@
     <title>Scraper Demo</title>
     <link type="text/css" rel="stylesheet" href="/main.css">
     <link type="text/css" rel="stylesheet" href="/scraper-demo/styles.css">
+    <style>input[type="submit"] {-webkit-appearance: none; }</style>
   </head>
   <body>
     <h1>Scraper Demo</h1>
